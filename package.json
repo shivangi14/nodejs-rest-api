@@ -1,0 +1,30 @@
+{
+  "name": "nodejsdemo",
+  "version": "1.0.0",
+  "description": "rest api tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivangi14/nodejs-rest-api.git"
+  },
+  "author": "Shivangi Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivangi14/nodejs-rest-api/issues"
+  },
+  "homepage": "https://github.com/shivangi14/nodejs-rest-api#readme",
+  "dependencies": {
+    "body-parser": "1.7.0",
+    "express": "^4.8.7",
+    "jsonwebtoken": "^7.3.0",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.13",
+    "mongoose": "^5.1.1",
+    "node-uuid": "^1.4.8",
+    "swagger-ui-express": "^2.0.13",
+    "sync-request": "^4.0.2"
+  }
+}
