@@ -29,8 +29,8 @@ app.put('/accounts/:id',(req,res)=>{
     res.status(200).send(store.accounts[req.params.id])
 })
 
+//status 204 does not have a body
 app.delete('/accounts/:id',(req,res)=>{
-
     store.accounts.splice(req.params.id,1)
     res.status(204).send()
 })
