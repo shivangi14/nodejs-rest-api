@@ -4,7 +4,7 @@
   "description": "rest api tutorial",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node-dev server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -21,12 +21,10 @@
   },
   "homepage": "https://github.com/shivangi14/nodejs-rest-api#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.3",
-    "mongodb": "^3.0.6",
-    "mongoose": "^5.0.14",
-    "request": "^2.85.0",
-    "dialogflow-fulfillment": "^0.5.0",
-    "actions-on-google": "^2.2.0"
+    "body-parser": "1.18.3",
+    "errorhandler": "1.5.0",
+    "express": "4.16.4",
+    "morgan": "1.9.1",
+    "node-dev": "3.1.3"
   }
 }
