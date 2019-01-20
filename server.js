@@ -11,6 +11,8 @@ app.use(bodyParser.json())
 app.use(logger('dev'))
 app.use(errorHandler())
 
+//for POST and PUT in POSTMAN use Body-> raw-> JSON(application/json)
+
 app.get('/accounts',(req,res)=>{
     res.status(200).send(store.accounts)
 })
